@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    margin: 100px;
+    border: 1px solid black;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    border: 1px solid yellowgreen;
+}
+
+.logo {
+    border: 1px solid blue;
+}
+
+.menu {
+    margin-left: 5rem;
+    border: 1px solid blue;
+}
+
+.menul {
+    list-style: none;
+    /* aleve le puces devant les menus*/
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: 1px solid darkmagenta;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    margin-left: 23.7rem;
+    /*margin-left: 10rem;*/
+    border: 1px solid maroon;
+}
+
+.cart {
+
+    margin-right: 2rem;
+    /*border: 1px solid blue;*/
+}
+
+.avatar{
+    width: 50px;
+    border: 1px solid blue;
+}
+
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    border: 1px solid red;
+}
+
+.left {
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.chausse {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+
+.right {
+
+    border: 1px solid blue;
+}
+
+.sneak{
+    color:  hsl(26, 100%, 55%);
+    border: 1px solid red;
+}
+
+.fall{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.para{
+    border: 1px solid red;
+}
+
+.montant{
+    border: 1px solid red;
+}
+
+.ok{
+    border: 1px solid red;
+}
+
+.none{
+    border: 1px solid red;
+}
+
+.pourcentage{
+    border: 1px solid red;
+}
+
+.foot{
+    border: 1px solid red;
+}
