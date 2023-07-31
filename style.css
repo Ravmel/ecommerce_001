@@ -137,44 +137,51 @@ body {
 
 .montant {
     display: flex;
+    align-items: center;
     /*align-items: center;*/
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
 
-    border: 1px solid red;
+    border: 1px solid rgb(102, 255, 0);
 }
 
 .valu {
     border: 1px solid green;
 }
 
-.ok {
+.ok1 {
 
     font-size: 2rem;
     font-weight: bold;
     border: 1px solid red;
 }
 
-.none {
+.ok2 {
+
     border: 1px solid red;
 }
 
 .pourcentage {
     display: flex;
+    flex-direction: column;
     margin-left: 1rem;
-    color: hsl(26, 100%, 55%);
+    height: 100%;
+   
     font-weight: bolder;
-    align-items: center;
+    /*align-items: center;*/
     border: 1px solid red;
 }
 
-.yes{
-    height: 50%;
+.yes1 {
+    display: flex;
+    align-items: center;
+    color: hsl(26, 100%, 55%);
+    height: 65%;
     border: 1px solid black;
 }
 
-.none{
-    height: 50%;
-    border: 1px solid black;
+.yes2 {
+    height: 35%;
+    border: 1px solid blue;
 }
 
 .foot {
@@ -207,13 +214,13 @@ body {
 }
 
 .in_center {
-   font-weight: bold;
+    font-weight: bold;
     border: 1px solid black;
 }
 
 
 .in_right {
-   
+
     border: 1px solid yellow;
 }
 
