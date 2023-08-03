@@ -1,196 +1,223 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 /*.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }*/
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    margin: 100px;
-    border: 1px solid black;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  margin-left:100px;
+  margin-right: 100px;
+ /*border: 1px solid black;*/
+ height: 100vh;
 }
 
+.bloc_one{
+    display: flex;
+    /*border: 1px solid orangered;*/
+}
 
 .navigation {
-    display: flex;
-    align-items: center;
-    /*justify-content: space-between;*/
-    border: 1px solid yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 1px solid yellowgreen;*/
 }
 
 .logo {
-    border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .menu {
-    margin-left: 5rem;
-    border: 1px solid blue;
+  margin-left: 5rem;
+
+ /* border: 1px solid blue;*/
 }
 
 .menul {
-    color: hsl(0, 0%, 100%);
-    list-style: none;
-    /* aleve le puces devant les menus*/
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-    border: 1px solid darkmagenta;
+  color: hsl(0, 0%, 100%);
+  list-style: none;
+  /* aleve le puces devant les menus*/
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  /*border: 1px solid darkmagenta;*/
+}
+
+.deco {
+  text-decoration: none;
+}
+
+.deco :hover{
+
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+.bloc_two{
+   /* border: 1px solid orangered;*/
 }
 
 .nav_right {
-    display: flex;
-    align-items: center;
-    margin-left: 23.7rem;
-    /*margin-left: 10rem;*/
-    border: 1px solid maroon;
+  display: flex;
+  align-items: center;
+  margin-left: 19.3rem;
+  /*margin-left: 10rem;*/
+  /*border: 1px solid maroon;*/
 }
 
 .cart {
-
-    margin-right: 2rem;
-    /*border: 1px solid blue;*/
+  margin-right: 2rem;
+  /*border: 1px solid blue;*/
 }
 
 .avatar {
+    display: flex;
+    height: 50px;
     width: 50px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
-
 .all {
-    display: flex;
-    justify-content: space-between;
-    margin: 5rem;
-    border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem;
+  /*border: 1px solid red;*/
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  /*border: 1px solid blue;*/
 }
 
 .left_up {
-    border-radius: 10px;
-    border: 1px solid blue;
+  border-radius: 10px;
+  /* border: 1px solid blue;*/
 }
 
 .chausse {
-    height: 400px;
-    width: 400px;
-    border: 1px solid red;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  /* border: 1px solid red;*/
 }
 
 .left_down {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-    border-radius: 10px;
-    border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  /* border: 1px solid blue;*/
 }
 
 .chausse_lite {
-    height: 90px;
-    width: 90px;
-    border: 1px solid red;
+    border-radius: 10px;
+  height: 90px;
+  width: 90px;
+  /*border: 1px solid red;*/
+}
+
+.chausse_lite :hover{
+    border-radius: 10px;
+  height: 90px;
+  width: 90px;
+  border: 3px solid red;*/
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5rem;
-    border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+  /*border: 1px solid blue;*/
 }
 
 .sneak {
-    color: hsl(26, 100%, 55%);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 1px solid red;
+  color: hsl(26, 100%, 55%);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*border: 1px solid red;*/
 }
 
 .fall {
-    color: hsl(0, 0%, 0%);
-    font-size: 3rem;
-    font-weight: bold;
-    padding-top: 1rem;
-    border: 1px solid red;
+  color: hsl(0, 0%, 0%);
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  /*border: 1px solid red;*/
 }
 
 .para {
-    color: hsl(0, 0%, 100%) padding-top: 1rem;
-    line-height: 2rem;
-    border: 1px solid red;
+  color: hsl(0, 1%, 47%);
+  /*padding-top: 1rem;*/
+  line-height: 2rem;
+  /*border: 1px solid red;*/
 }
 
 .montant {
-    display: flex;
-    align-items: center;
-    /*align-items: center;*/
-    /*padding-top: 1rem;*/
-
-    border: 1px solid rgb(102, 255, 0);
+  display: flex;
+  align-items: center;
+  /*align-items: center;*/
+  /*padding-top: 1rem;*/
+  /*border: 1px solid rgb(102, 255, 0);*/
 }
 
 .valu {
-    border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .ok1 {
-
-    font-size: 2rem;
-    font-weight: bold;
-    border: 1px solid red;
+  font-size: 2rem;
+  font-weight: bold;
+  /*border: 1px solid red;*/
 }
 
 .ok2 {
-
-    border: 1px solid red;
+  /* border: 1px solid red;*/
 }
 
 .pourcentage {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-    height: 100%;
-   
-    font-weight: bolder;
-    /*align-items: center;*/
-    border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  height: 100%;
+
+  font-weight: bolder;
+  /*align-items: center;*/
+  /* border: 1px solid red;*/
 }
 
 .yes1 {
-    display: flex;
-    align-items: center;
-    color: hsl(26, 100%, 55%);
-    height: 65%;
-    border: 1px solid black;
+  display: flex;
+  align-items: center;
+  color: hsl(26, 100%, 55%);
+  height: 65%;
+  /* border: 1px solid black;*/
 }
 
 .yes2 {
-    height: 35%;
-    border: 1px solid blue;
+  height: 35%;
+  /* border: 1px solid blue;*/
 }
 
 .foot {
-    display: flex;
-    margin-top: 1rem;
-    /* padding: 1rem;*/
-    justify-content: space-between;
-    /*align-items: center;*/
-    border: 1px solid blue;
+  display: flex;
+  margin-top: 1rem;
+  /* padding: 1rem;*/
+  justify-content: space-between;
+  /*align-items: center;*/
+  /*border: 1px solid blue;*/
 }
 
 /*.foot_in {
@@ -200,47 +227,54 @@ body {
 }*/
 
 .incremente {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    border: 1px solid yellow;
+  border-radius: 10px;
+  background-color: rgb(234, 230, 230);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 47%;
+  /*border: 1px solid yellow;*/
 }
 
 .in_left {
-
-    border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
 }
 
 .in_center {
-    font-weight: bold;
-    border: 1px solid black;
+  font-weight: bold;
+  /* border: 1px solid black;*/
+}
+
+.in_right {
+  /*border: 1px solid yellow;*/
 }
 
 
-.in_right {
-
-    border: 1px solid yellow;
+.validation {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  /*padding-left: 4rem;*/
+  /*padding-right: 4rem;*/
+  border-radius: 10px;
+  background-color: hsl(26, 100%, 55%);
+  /*margin-left: 3rem;*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 47%;
+  /*border: 1px solid rgb(9, 9, 9);*/*/
 }
 
 .panier {
-    /*margin-right: 1rem;*/
-    border: 1px solid yellow;
+  /*margin-right: 1rem;*/
+   /*border: 1px solid yellow;*/
 }
 
-.validation {
-    display: flex;
-    justify-content: space-around;
-    color: hsl(0, 0%, 100%);
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 10px;
-    background-color: hsl(26, 100%, 55%);
-    /*margin-left: 3rem;*/
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
-    width: 50%;
-    border: 1px solid yellow;
+.add {
+  color: azure;
+  text-decoration: none;
+  /*list-style: none;*/
+  /*text-align: end;*/
+  margin-left: 0.5rem;
+  /*border: 1px solid black;*/
 }
